@@ -1,3 +1,5 @@
+
+
 const header = document.querySelector("header");
 
 const first_skill = document.querySelector(".skill:first-child");
@@ -18,6 +20,8 @@ const next_btn = document.querySelector(".next-btn");
 const links = document.querySelectorAll(".nav-link");
 
 const hamburger = document.querySelector(".hamburger");
+
+
 
 
 var typed = new Typed(".auto-type", {
@@ -230,4 +234,8 @@ links.forEach(link => link.addEventListener("click", () => {
     document.body.classList.remove("open");
     document.body.classList.remove("stopScrolling");
 }))
+
+
+
+// ---------------------contact-------------->
 
