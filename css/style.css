@@ -1945,3 +1945,19 @@ footer .text{
 
 
 }
+
+
+@media (max-width: 400px) {
+  .showcase-area .heading{
+    font-size: 2rem;
+ }
+
+}
+/* --------------- 500px Screens --------------- */
+
+@media (max-width: 360px) {
+  .showcase-area .heading{
+    font-size: 1.7rem;
+ }
+
+}
